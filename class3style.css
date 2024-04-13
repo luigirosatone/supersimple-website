@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	margin:0; 
+	padding:0;
+	}
+
+body {
+	margin:0; 
+	padding:0; 
+	background-color:#bdc274; 
+	font-family:tahoma, Arial, sans-serif;
+	}
+
+#sitecontainer {
+	width:750px; 
+	margin: 0 auto;
+	background-color: #d8de8a;
+	}
+	
+#titleheader { 
+	background: url('images/ambrosiaheader.jpg') no-repeat; 
+	width:750px; 
+	height:184px; 
+	}
+	
+#menu { 
+	background-color: #8ea92f; 
+	height:35px; 
+	padding:5px;
+	}
+#center { width:auto}
+#menu a { 
+	float:left;
+	display: block; 	
+	border: 1px solid #ffffff; 
+	height:20px; 
+	padding:7px; 
+	margin: 0 10px;
+	color:#FFFFFF; 
+	font-weight:bold;
+	text-decoration:none; 
+	background: url(images/background-gradient.jpg) repeat-x;
+	}
+	
+#menu a:hover {
+	color: #bdc269;
+	border:1px solid #bdc269;
+	}
+
+#content { 
+	background-color:#f4ffcf; 
+	padding: 25px; 
+	font-size:.9em; 
+	color:#343825; /* font color */
+	overflow:hidden;
+	}
+	
+h1 {
+ 	color:#516800; 
+	font-size:1.2em; 
+}
+
+.floatright { 
+	float:right; 
+	border:solid 3px #9ecb01; 
+	margin:0 0 15px 15px
+}
+
+blockquote { 
+	background-color:#d8de8a; 
+	padding:20px; 
+	font-style:italic; 
+	margin:10px 70px;
+}
+
+.quoteauthor {
+	text-align:right;
+	font-weight:bold;
+	font-style:normal
+}
+
+#footer{ 
+	background-color:#959950;	
+	padding: 5px 0; 
+	text-align:center; 
+	color:#CCCCCC; 
+	font-size:.8em
+}
+
+li { 
+	color:#516800; 
+	font-size:.9em; 
+	list-style:square;
+}
